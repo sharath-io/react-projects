@@ -23,7 +23,7 @@ const Accordion = () => {
   };
 
   return (
-    <div>
+    <div className="h-[100vh]">
       <h1 className="text-2xl my-7">Accordian component</h1>
       <button
         onClick={handleMultipleSelection}
